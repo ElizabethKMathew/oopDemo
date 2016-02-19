@@ -4,10 +4,8 @@ var User = function(options) {
         var birthYear = options.birthYear;
         var age;
         this.country = options.country;
-       
-
         function privateMethod() {
-            console.log('im a private method!')
+            console.log('im a private method!');
         }
         var calculateAge = function() {
                 var today = new Date();
@@ -21,7 +19,7 @@ var User = function(options) {
         }
     }
     //new instance of User
-var user1 = new User({
+var u = new User({
     name: 'Anju',
     password: '***',
     birthYear: 1993,
