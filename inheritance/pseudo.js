@@ -24,5 +24,4 @@
             var name = myCat.get_name( );
             
             console.log(name);
-            
             console.log(says);
