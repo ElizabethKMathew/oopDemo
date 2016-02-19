@@ -1,0 +1,24 @@
+function calculateTax(item){
+	//body
+}
+var product = function(cost){
+	//body
+}
+function doTaxCalculation(){
+	//body
+}
+
+
+var MYAPP = {
+	calculateTax: function(item){
+		//body
+	},
+	product: function(cost){
+		//body
+	},
+	doTaxCalculation: function(){
+		//body
+	}
+
+}
+

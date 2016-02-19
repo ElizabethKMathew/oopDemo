@@ -29,5 +29,5 @@ var u = new User({
 console.log(u.name); //undefined
 console.log(u.country); //India
 console.log(u.age); //undefined
-console.log(u.getAge());
+console.log(u.getAge()); //23
 console.log(u.privateMethod ()); //throws error
