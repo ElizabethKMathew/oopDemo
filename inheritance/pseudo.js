@@ -4,7 +4,7 @@
             Mammal.prototype.get_name = function ( ) {
             return this.name;
             };
-            var myMammal = new Mammal('Herb the Mammal');
+            var myMammal = new Mammal('Feline');
             var name = myMammal.get_name( );
             console.log(name);
             var Cat = function (name) {

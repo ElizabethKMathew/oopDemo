@@ -1,5 +1,5 @@
             var myMammal = {
-            name : 'Herb the Mammal',
+            name : 'Feline',
             get_name : function ( ) {
             return this.name;
             }
